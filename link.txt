@@ -1,1 +1,1 @@
-Copy this url in browser: https://taxi-rides-prediction.herokuapp.com/predict
+Copy this url in browser:  https://taxi-rides-prediction.herokuapp.com/
