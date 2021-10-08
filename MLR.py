@@ -11,8 +11,8 @@ from sklearn.linear_model import LinearRegression
 data = pd.read_csv('taxi1.csv')
 # print(data.head())
 
-data_x = data.iloc[:,0:-1].values #will take all row data exclude last
-data_y = data.iloc[:,-1].values
+data_x = data.iloc[:,0:-1].values #will take all row data exclude last, independent variables
+data_y = data.iloc[:,-1].values # excluded last column, dependent variable is last column
 print(data_y)
 
 X_train,X_test,y_train,y_test = train_test_split(data_x,data_y,test_size=0.3,random_state=0)
